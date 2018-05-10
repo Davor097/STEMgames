@@ -1,0 +1,14 @@
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\bin\Release\STEM.exe.config
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\bin\Release\STEM.exe
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\bin\Release\STEM.pdb
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\bin\Release\Newtonsoft.Json.dll
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\bin\Release\STEM.Model.dll
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\bin\Release\STEM.Utility.dll
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\bin\Release\STEM.Model.pdb
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\bin\Release\STEM.Utility.pdb
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\bin\Release\Newtonsoft.Json.xml
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\obj\Release\STEM.Pillars.csprojResolveAssemblyReference.cache
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\obj\Release\STEM.Pillars.csproj.CoreCompileInputs.cache
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\obj\Release\STEM.Pillars.csproj.CopyComplete
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\obj\Release\STEM.exe
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\obj\Release\STEM.pdb

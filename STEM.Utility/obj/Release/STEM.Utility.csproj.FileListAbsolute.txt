@@ -1,0 +1,5 @@
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.Utility\bin\Release\STEM.Utility.dll
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.Utility\bin\Release\STEM.Utility.pdb
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.Utility\obj\Release\STEM.Utility.csproj.CoreCompileInputs.cache
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.Utility\obj\Release\STEM.Utility.dll
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.Utility\obj\Release\STEM.Utility.pdb

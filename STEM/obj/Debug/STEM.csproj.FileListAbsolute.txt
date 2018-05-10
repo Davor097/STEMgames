@@ -1,0 +1,10 @@
+c:\users\ivan.cvitas\documents\visual studio 2017\Projects\STEM\STEM\bin\Debug\STEM.exe.config
+c:\users\ivan.cvitas\documents\visual studio 2017\Projects\STEM\STEM\bin\Debug\STEM.exe
+c:\users\ivan.cvitas\documents\visual studio 2017\Projects\STEM\STEM\bin\Debug\STEM.pdb
+c:\users\ivan.cvitas\documents\visual studio 2017\Projects\STEM\STEM\obj\Debug\STEM.csprojResolveAssemblyReference.cache
+c:\users\ivan.cvitas\documents\visual studio 2017\Projects\STEM\STEM\obj\Debug\STEM.csproj.CoreCompileInputs.cache
+c:\users\ivan.cvitas\documents\visual studio 2017\Projects\STEM\STEM\obj\Debug\STEM.exe
+c:\users\ivan.cvitas\documents\visual studio 2017\Projects\STEM\STEM\obj\Debug\STEM.pdb
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\obj\Debug\STEM.csproj.CopyComplete

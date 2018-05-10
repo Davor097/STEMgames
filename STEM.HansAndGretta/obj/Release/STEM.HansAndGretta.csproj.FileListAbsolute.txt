@@ -1,0 +1,14 @@
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HansAndGretta\bin\Release\STEM.HansAndGretta.exe.config
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HansAndGretta\bin\Release\STEM.HansAndGretta.exe
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HansAndGretta\bin\Release\STEM.HansAndGretta.pdb
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HansAndGretta\bin\Release\Newtonsoft.Json.dll
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HansAndGretta\bin\Release\STEM.Model.dll
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HansAndGretta\bin\Release\STEM.Utility.dll
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HansAndGretta\bin\Release\STEM.Model.pdb
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HansAndGretta\bin\Release\STEM.Utility.pdb
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HansAndGretta\bin\Release\Newtonsoft.Json.xml
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HansAndGretta\obj\Release\STEM.HansAndGretta.csprojResolveAssemblyReference.cache
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HansAndGretta\obj\Release\STEM.HansAndGretta.csproj.CoreCompileInputs.cache
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HansAndGretta\obj\Release\STEM.HansAndGretta.csproj.CopyComplete
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HansAndGretta\obj\Release\STEM.HansAndGretta.exe
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HansAndGretta\obj\Release\STEM.HansAndGretta.pdb

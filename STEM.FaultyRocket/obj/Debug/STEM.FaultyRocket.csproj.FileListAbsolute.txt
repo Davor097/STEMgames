@@ -1,0 +1,14 @@
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.FaultyRocket\bin\Debug\STEM.FaultyRocket.exe.config
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.FaultyRocket\bin\Debug\STEM.FaultyRocket.exe
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.FaultyRocket\bin\Debug\STEM.FaultyRocket.pdb
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.FaultyRocket\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.FaultyRocket\bin\Debug\STEM.Model.dll
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.FaultyRocket\bin\Debug\STEM.Utility.dll
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.FaultyRocket\bin\Debug\STEM.Model.pdb
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.FaultyRocket\bin\Debug\STEM.Utility.pdb
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.FaultyRocket\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.FaultyRocket\obj\Debug\STEM.FaultyRocket.csprojResolveAssemblyReference.cache
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.FaultyRocket\obj\Debug\STEM.FaultyRocket.csproj.CoreCompileInputs.cache
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.FaultyRocket\obj\Debug\STEM.FaultyRocket.csproj.CopyComplete
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.FaultyRocket\obj\Debug\STEM.FaultyRocket.exe
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.FaultyRocket\obj\Debug\STEM.FaultyRocket.pdb

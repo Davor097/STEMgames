@@ -1,0 +1,14 @@
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\bin\Debug\STEM.exe.config
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\bin\Debug\STEM.exe
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\bin\Debug\STEM.pdb
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\obj\Debug\STEM.Pillars.csprojResolveAssemblyReference.cache
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\obj\Debug\STEM.Pillars.csproj.CoreCompileInputs.cache
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\obj\Debug\STEM.Pillars.csproj.CopyComplete
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\obj\Debug\STEM.exe
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\obj\Debug\STEM.pdb
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\bin\Debug\STEM.Utility.dll
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\bin\Debug\STEM.Utility.pdb
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\bin\Debug\STEM.Model.dll
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM\bin\Debug\STEM.Model.pdb
