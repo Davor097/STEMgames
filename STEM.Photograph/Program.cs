@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Newtonsoft.Json;
 using STEM.Model.Responses;
+using STEM.Photograph.Model;
 using STEM.Utility;
 
 namespace STEM.Photograph
@@ -50,7 +51,7 @@ namespace STEM.Photograph
                 }
             }
 
-            int sumMax = 0;
+            MatrixResult result = new MatrixResult();
 
             for (int q = n; q >= 1; q--)
             {
@@ -60,39 +61,46 @@ namespace STEM.Photograph
                     {
                         for (int j = 0; j < n - z; j++)
                         {
-                            int sum = CalculateSum(i, j, q, z);
-
-                            if (sum > sumMax)
+                            if (q*z >= result.P)
                             {
-                                sumMax = sum;
+                                MatrixResult current = CalculateSum(i, j, q, z);
+
+                                if (current.Sum > result.Sum)
+                                {
+                                    result = current;
+                                }
+                            }
+                            else
+                            {
+                                break;
                             }
                         }
                     }
                 }
             }
 
-            var content = sumMax.ToString();
+            var content = result.Sum.ToString();
 
             response = Manager.SendPOSTRequest($"{UriBase}/{testCaseResponse.submission_id}", content, Authorization);
             SubmitResponse submitResponse = JsonConvert.DeserializeObject<SubmitResponse>(response);
             Console.WriteLine($"{submitResponse.status} - {submitResponse.points_won}");
         }
 
-        private static int CalculateSum(int x, int y, int q, int z)
+        private static MatrixResult CalculateSum(int x, int y, int q, int z)
         {
-            int sum = 0;
+            MatrixResult result = new MatrixResult();
             for (int i = x; i < x + q; i++)
             {
                 for (int j = y; j < y + z; j++)
                 {
                     if (matrix[i,j] % 2 == 1)
                     {
-                        return 0;
+                        return new MatrixResult();
                     }
-                    sum += matrix[i, j];
+                    result.Sum += matrix[i, j];
                 }
             }
-            return sum;
+            return result;
         }
     }
 }
