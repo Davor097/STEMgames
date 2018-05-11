@@ -32,80 +32,63 @@ namespace STEM.HansAndGretta
 
         private static void ProcessJob()
         {
-            //string response = Manager.SendGETRequest(UriBase, Authorization);
-            //TestCaseResponse testCaseResponse = JsonConvert.DeserializeObject<TestCaseResponse>(response);
+            string response = Manager.SendGETRequest(UriBase, Authorization);
+            TestCaseResponse testCaseResponse = JsonConvert.DeserializeObject<TestCaseResponse>(response);
 
-            //if (testCaseResponse.input == null)
-            //{
-            //    return;
-            //}
+            if (testCaseResponse.input == null)
+            {
+                return;
+            }
 
-            //int finNumber = Convert.ToInt32(testCaseResponse.input);
+            int finNumber = Convert.ToInt32(testCaseResponse.input);
 
+            long sum = 0;
 
-            long n = 3;
-            F[0] = F[1] = 1;
+            for (int i = finNumber; i > 0; i--)
+            {
+                sum += Fibonacci(i * 4 - 1);
+            }
 
-            long rez = 0;
-            while (rez > n)
-                rez =  (n == 0 ? 0 : f(n - 1));
+            string content = sum.ToString();
 
-            long content = rez;
-
-
-            //response = Manager.SendPOSTRequest($"{UriBase}/{testCaseResponse.submission_id}", content.ToString(), Authorization);
-            //SubmitResponse submitResponse = JsonConvert.DeserializeObject<SubmitResponse>(response);
-            //Console.WriteLine($"{submitResponse.status} - {submitResponse.points_won}");
+            response = Manager.SendPOSTRequest($"{UriBase}/{testCaseResponse.submission_id}", content.ToString(), Authorization);
+            SubmitResponse submitResponse = JsonConvert.DeserializeObject<SubmitResponse>(response);
+            Console.WriteLine($"{submitResponse.status} - {submitResponse.points_won}");
         }
 
-        //public static long Fibonatchi(int n)
-        //{
-
-        //    //if (position == 0)
-        //    //{
-        //    //    return 1;
-        //    //}
-        //    //if (position == 1)
-        //    //{
-        //    //    return 1;
-        //    //}
-        //    //else
-        //    //{
-        //    //    return Fibonatchi(position - 2) + Fibonatchi(position - 1);
-        //    //}
-
-        //    int res = 1;
-        //    for (int mod = 1000000007, i = 20; i < n; i++)
-        //    {
-        //        res *= i; // an obvious step to be done 
-        //        if (res > mod) // check if the number exceeds mod
-        //            res %= mod; // so as to avoid the modulo as it is costly operation 
-        //    }
-
-        //    return res;
-
-        //    //long a = 0;
-        //    //    long b = 1;
-        //    //    while (n-- > 1)
-        //    //    {
-        //    //        long t = a;
-        //    //        a = b;
-        //    //        b += t;
-        //    //    }
-        //    //    return b % 1000000007;
-        //}
-        public static long f(long n)
+        public static int Fibonacci(int n)
         {
-            if (F.Count == n) return F[n];
-            long k = n / 2;
-            if (n % 2 == 0)
-            { // n=2*k
-                return F[n] = (f(k) * f(k) + f(k - 1) * f(k - 1)) % M;
+
+            int num = Math.Abs(n);
+            if (num == 0)
+            {
+                return 0;
             }
-            else
-            { // n=2*k+1
-                return F[n] = (f(k) * f(k + 1) + f(k - 1) * f(k)) % M;
+            else if (num <= 2)
+            {
+                return 1;
             }
+
+            int[][] number = {new int[] { 1, 1 }, new int[] { 1, 0 }};
+            int[][] result = {new int[] { 1, 1 }, new int[] { 1, 0 }};
+
+            while (num > 0)
+            {
+                if (num % 2 == 1) result = MultiplyMatrix(result, number);
+                number = MultiplyMatrix(number, number);
+                num /= 2;
+            }
+            return result[1][1] * ((n < 0) ? -1 : 1);
+        }
+
+        public static int[][] MultiplyMatrix(int[][] mat1, int[][] mat2)
+        {
+            return new int[][] {
+                new int[] { mat1[0][0]*mat2[0][0] + mat1[0][1]*mat2[1][0],
+                    mat1[0][0]*mat2[0][1] + mat1[0][1]*mat2[1][1] },
+                new int[] { mat1[1][0]*mat2[0][0] + mat1[1][1]*mat2[1][0],
+                    mat1[1][0]*mat2[0][1] + mat1[1][1]*mat2[1][1] }
+            };
         }
     }
 }

@@ -7,7 +7,6 @@ C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\MathHomework\bin
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\MathHomework\bin\Debug\STEM.Model.pdb
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\MathHomework\bin\Debug\STEM.Utility.pdb
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\MathHomework\bin\Debug\Newtonsoft.Json.xml
-C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\MathHomework\obj\Debug\MathHomework.csprojResolveAssemblyReference.cache
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\MathHomework\obj\Debug\MathHomework.csproj.CoreCompileInputs.cache
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\MathHomework\obj\Debug\MathHomework.csproj.CopyComplete
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\MathHomework\obj\Debug\MathHomework.exe

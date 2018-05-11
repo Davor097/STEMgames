@@ -1,4 +1,3 @@
-C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.Shoutistan\obj\Debug\STEM.Shoutistan.csprojResolveAssemblyReference.cache
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.Shoutistan\obj\Debug\STEM.Shoutistan.csproj.CoreCompileInputs.cache
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.Shoutistan\bin\Debug\STEM.Shoutistan.exe.config
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.Shoutistan\bin\Debug\STEM.Shoutistan.exe

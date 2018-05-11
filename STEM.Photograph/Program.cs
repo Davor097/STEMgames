@@ -10,12 +10,12 @@ namespace STEM.Photograph
 {
     class Program
     {
-        private const string UriBase = "https://tech.stemgames.hr/api/competitive/v1/33602146-07d7-4083-b18e-4c0eb25ce7b9";
+        private const string UriBase = "https://tech.stemgames.hr/api/competitive/v1/ea95c560-4e7d-47e5-a36a-8bf32c11dd4e";
         private const string Authorization = "token VBzFKLfr8jZDUAsjdJJe0lSuMNPCJlxU";
 
         public static RequestManager Manager = new RequestManager();
 
-        public static int[,] matrix;
+        public static int[,] Matrix;
 
         static void Main(string[] args)
         {
@@ -40,14 +40,14 @@ namespace STEM.Photograph
 
             int n = Convert.ToInt32(lines[0]);
 
-            matrix = new int[n,n];
+            Matrix = new int[n,n];
 
             for (int i = 1; i <= n; i++)
             {
                 int[] line = lines[i].Split(' ').Select(int.Parse).ToArray();
                 for (int j = 0; j < line.Length; j++)
                 {
-                    matrix[i, j] = line[j];
+                    Matrix[i, j] = line[j];
                 }
             }
 
@@ -93,11 +93,11 @@ namespace STEM.Photograph
             {
                 for (int j = y; j < y + z; j++)
                 {
-                    if (matrix[i,j] % 2 == 1)
+                    if (Matrix[i,j] % 2 == 1)
                     {
                         return new MatrixResult();
                     }
-                    result.Sum += matrix[i, j];
+                    result.Sum += Matrix[i, j];
                 }
             }
             return result;

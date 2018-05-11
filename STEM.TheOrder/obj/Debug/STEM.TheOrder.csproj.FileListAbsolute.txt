@@ -7,7 +7,6 @@ C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.TheOrder\bi
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.TheOrder\bin\Debug\STEM.Model.pdb
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.TheOrder\bin\Debug\STEM.Utility.pdb
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.TheOrder\bin\Debug\Newtonsoft.Json.xml
-C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.TheOrder\obj\Debug\STEM.TheOrder.csprojResolveAssemblyReference.cache
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.TheOrder\obj\Debug\STEM.TheOrder.csproj.CoreCompileInputs.cache
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.TheOrder\obj\Debug\STEM.TheOrder.csproj.CopyComplete
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.TheOrder\obj\Debug\STEM.TheOrder.exe

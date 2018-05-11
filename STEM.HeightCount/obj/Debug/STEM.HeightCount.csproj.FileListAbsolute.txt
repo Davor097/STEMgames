@@ -7,8 +7,8 @@ C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\bin\Debug\STEM.Model.pdb
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\bin\Debug\STEM.Utility.pdb
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\bin\Debug\Newtonsoft.Json.xml
-C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\obj\Debug\STEM.HeightCount.csprojResolveAssemblyReference.cache
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\obj\Debug\STEM.HeightCount.csproj.CoreCompileInputs.cache
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\obj\Debug\STEM.HeightCount.csproj.CopyComplete
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\obj\Debug\STEM.HeightCount.exe
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\obj\Debug\STEM.HeightCount.pdb
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\obj\Debug\STEM.HeightCount.csprojResolveAssemblyReference.cache

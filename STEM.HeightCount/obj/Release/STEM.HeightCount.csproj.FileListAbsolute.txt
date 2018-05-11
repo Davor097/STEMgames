@@ -1,0 +1,14 @@
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\bin\Release\STEM.HeightCount.exe.config
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\bin\Release\STEM.HeightCount.exe
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\bin\Release\STEM.HeightCount.pdb
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\bin\Release\Newtonsoft.Json.dll
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\bin\Release\STEM.Model.dll
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\bin\Release\STEM.Utility.dll
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\bin\Release\STEM.Model.pdb
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\bin\Release\STEM.Utility.pdb
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\bin\Release\Newtonsoft.Json.xml
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\obj\Release\STEM.HeightCount.csprojResolveAssemblyReference.cache
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\obj\Release\STEM.HeightCount.csproj.CoreCompileInputs.cache
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\obj\Release\STEM.HeightCount.csproj.CopyComplete
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\obj\Release\STEM.HeightCount.exe
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.HeightCount\obj\Release\STEM.HeightCount.pdb

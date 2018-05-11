@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using Newtonsoft.Json;
 using STEM.Model.Responses;
@@ -14,7 +13,7 @@ namespace STEM.HeightCount
 
         public static RequestManager Manager = new RequestManager();
 
-        public static SortedDictionary<int, int> heights;
+        public static int[] Heights;
 
         static void Main(string[] args)
         {
@@ -35,46 +34,29 @@ namespace STEM.HeightCount
             string response = Manager.SendGETRequest(UriBase, Authorization);
             TestCaseResponse testCaseResponse = JsonConvert.DeserializeObject<TestCaseResponse>(response);
 
-
-            //string dasd = "4\n173.35\n155.53\n173.35\n150.00";
-
-            heights = new SortedDictionary<int, int>();
+            //string input = "4\n173.35\n155.53\n173.35\n150.00";
 
             string[] lines = testCaseResponse.input.Split('\n').ToArray();
             int n = Convert.ToInt32(lines[0]);
 
-            if (n > 5000)
+            if (n > 60000)
             {
                 throw new Exception();
             }
 
-            //List<decimal> peoples = new List<decimal>();
+            int max = 15001;
+            Heights = new int[max];
 
-
-
-            int sum = 0;
+            long sum = 0;
 
             for (int i = 1; i < n + 1; i++)
             {
                 int height = (int)Convert.ToDecimal(lines[i]) - 10000;
 
-                if (heights.ContainsKey(height))
-                {
-                    heights[height] += 1;
-                }
-                else
-                {
-                    heights.Add(height, 1);
-                }
+                Heights[height]++;
 
-                sum += heights.Where(x => x.Key > height).Sum(x => x.Value);
+                sum += Heights.Skip(height + 1).Sum();
             }
-
-            //foreach (var people in peoples)
-            //{
-            //    heights[people] += 1;
-            //    sum += heights.Where(x => x.Key > people).Sum(x => x.Value);
-            //}
 
             var content = sum;
 
