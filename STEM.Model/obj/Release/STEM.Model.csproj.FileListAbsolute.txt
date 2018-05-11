@@ -3,3 +3,4 @@ C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.Model\bin\R
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.Model\obj\Release\STEM.Model.csproj.CoreCompileInputs.cache
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.Model\obj\Release\STEM.Model.dll
 C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.Model\obj\Release\STEM.Model.pdb
+C:\Users\ivan.cvitas\Documents\Visual Studio 2017\Projects\STEM\STEM.Model\obj\Release\STEM.Model.csprojResolveAssemblyReference.cache

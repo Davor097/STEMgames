@@ -51,28 +51,18 @@ namespace STEM.FaultyRocket
 
             Code first1 = dictionary[formula[0]];
             Code second1 = dictionary[formula[2]];
-
             char op1 = formula[1];
-
             var result = CalculateResult(first1, second1, op1);
 
-            for (int i = 3; i < formula.Length - 1; i = i + 2)
+            if (formula.Length > 3)
             {
-                try
+                for (int i = 3; i < formula.Length - 1; i = i + 2)
                 {
                     Code second = dictionary[formula[i + 1]];
-
                     char op = formula[i];
-
                     result = CalculateResult(result, second, op);
                 }
-                catch (Exception e)
-                {
-                    Console.WriteLine(e);
-                    throw;
-                }
             }
-
 
             string content = string.Join("", result.Bits);
 
@@ -98,7 +88,6 @@ namespace STEM.FaultyRocket
                         break;
                 }
             }
-
             return first;
         }
     }
